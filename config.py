@@ -11,7 +11,7 @@ API_ID = int(getenv("API_ID", ""))
 
 API_HASH = getenv("API_HASH", "")
 
-BOT_IMAGE = getenv("BOT_IMAGE", "https://telegra.ph/file/9ab00e3d18675da305dbb.jpg")
+BOT_IMAGE = getenv("BOT_IMAGE", "https://telegra.ph/file/85808b7575ea14c968cd9.jpg")
 
 BOT_TOKEN = getenv("BOT_TOKEN", "")
 
@@ -27,7 +27,7 @@ SONG_DOWNLOAD_DURATION = int(
 
 LOGGER_ID = int(getenv("LOGGER_ID", ""))
 
-OWNER_ID = int(getenv("OWNER_ID", "1260465030"))
+OWNER_ID = int(getenv("OWNER_ID", "7464592789"))
 
 BOT_USERNAME = getenv("BOT_USERNAME" , "")
 
@@ -46,8 +46,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Tepthon")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Tepthon_Help")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/q2s8n")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/q2s8n")
 
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
 AUTO_SUGGESTION_MODE = getenv("AUTO_SUGGESTION_MODE", "True")
@@ -90,7 +90,7 @@ clean = {}
 autoclean = []
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://te.legra.ph/file/407ce4c57a645c11f65c0.jpg"
+    "START_IMG_URL", "https://telegra.ph/file/85808b7575ea14c968cd9.jpg"
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://te.legra.ph/file/f70081ed82879c1a24068.jpg"
